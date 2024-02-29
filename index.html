@@ -30,9 +30,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="sec-9.css" />
-    <link rel="stylesheet" href="ui-ux.css" />
-    <link rel="stylesheet" href="sec-11.css " />
+    <link rel="stylesheet" href="sec-13.css" />
     <title>naxte(3rd page)</title>
   </head>
   <body>
@@ -192,6 +190,7 @@
         <button onclick="toggleButton(this)">Woo Commerce</button>
         <button onclick="toggleButton(this)">CRM Solutions</button>
         <button onclick="toggleButton(this)">Web Designing</button>
+        <button onclick="toggleButton(this)">IT Support</button>
       </div>
 
       <div class="content-section">
@@ -427,6 +426,52 @@
       </div>
     </div>
 
+    <!-- section-13 -->
+    <div class="sec-13-root">
+      <div class="sec-13-content">
+        <h1>Choose the Best Approach to Build your Software Product</h1>
+
+        <div class="sec-13-second-div">
+          <h5>Adam Beckley</h5>
+          <h4>Founder & CEO</h4>
+          <p>
+            I have been hiring people in this space for a number of years and i
+            have never seen this level of professionalism.It really feels like
+            you are working with a team that can get the job done.
+          </p>
+          <div class="sec-13-botton">
+            <button>Know more</button>
+          </div>
+        </div>
+
+        <div class="sec-13-second-div">
+          <h5>Adam Beckley</h5>
+          <h4>Founder & CEO</h4>
+          <p>
+            I have been hiring people in this space for a number of years and i
+            have never seen this level of professionalism.It really feels like
+            you are working with a team that can get the job done.
+          </p>
+          <div class="sec-13-botton">
+            <button>Know more</button>
+          </div>
+        </div>
+
+        <div class="sec-13-second-div">
+          <h5>Adam Beckley</h5>
+          <h4>Founder & CEO</h4>
+          <p>
+            I have been hiring people in this space for a number of years and i
+            have never seen this level of professionalism.It really feels like
+            you are working with a team that can get the job done.
+          </p>
+          <div class="sec-13-botton">
+            <button>Know more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- UI/UX FAQ section -->
     <div class="ui-ux-faq-sec-root">
       <div class="ui-ux-faq-content">
@@ -445,8 +490,10 @@
         </div>
         <div class="ui-ux-bottom-part">
           <div class="ui-ux-bottom-top">
-            <h3>UX AUDITS <i class="ri-arrow-up-circle-fill"></i></h3>
-            <p>
+            <h3>
+              UX AUDITS <i id="arrow-icon" class="ri-arrow-up-circle-fill"></i>
+            </h3>
+            <p id="paragraph-content">
               A UX audit is a service that evaluates the user experience (UX) of
               a website. It involves analyzing the website's design,
               functionality, and content to identify areas of improvement that
@@ -473,6 +520,24 @@
         </div>
       </div>
     </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const arrowIcon = document.getElementById("arrow-icon");
+        const paragraphContent = document.getElementById("paragraph-content");
+
+        arrowIcon.addEventListener("click", function () {
+          if (arrowIcon.classList.contains("ri-arrow-up-circle-fill")) {
+            arrowIcon.classList.remove("ri-arrow-up-circle-fill");
+            arrowIcon.classList.add("ri-arrow-down-circle-fill");
+            paragraphContent.style.display = "none";
+          } else {
+            arrowIcon.classList.remove("ri-arrow-down-circle-fill");
+            arrowIcon.classList.add("ri-arrow-up-circle-fill");
+            paragraphContent.style.display = "block";
+          }
+        });
+      });
+    </script>
 
     <!-- section-11 -->
     <div class="sec-11-root">
