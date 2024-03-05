@@ -5,8 +5,10 @@
 }
 
 /* banner section */
-.banner {
+.banner-section-root {
   background-image: url(/image//Texture\ 1.png);
+}
+.banner {
   max-width: 1300px;
   margin: 0 auto;
   padding: 30px 0 0 14px;
@@ -100,13 +102,16 @@ h6 {
 }
 
 /* .third-section */
+.third-section-root{
+  background-color: #fff4e7;
+
+}
 .third-section {
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 20px;
   padding: 0;
-  padding: 30px 6px 0 14px;
-  background-color: #fff4e7;
+  padding: 30px 6px 30px 14px;
 }
 .heading-part {
   display: flex;
@@ -148,9 +153,25 @@ h6 {
   font-size: 18px;
   color: #086ad8;
 }
+.third-sec-image-box {
+  position: relative;
+  z-index: 1;
+  display: flex;
+}
 .left-side img {
   width: 400px;
   height: 401px;
+}
+.third-sec-box {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: #086ad8;
+  bottom: 14px;
+  right: -1px;
+  left: 14px;
+  margin: -27px;
+  z-index: -1;
 }
 .right-side {
   max-width: 54%;
@@ -195,8 +216,11 @@ h6 {
 }
 
 /* .fifth-section */
-.fifth-section {
+.fifth-section-root{
   background-color: #f3f6fd;
+
+}
+.fifth-section {
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 20px;
@@ -303,8 +327,11 @@ h6 {
 }
 
 /* sixth-section */
-.sixth-section-root {
+.sisth-sec-main{
   background-color: #f4f4f4;
+
+}
+.sixth-section-root {
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 20px;
@@ -712,8 +739,9 @@ h6 {
     font-weight: 600;
     font-size: 12px;
   }
-
-  /* fourth-section */
+  .left-side {
+    max-width: 50%;
+  }
   .left-side img {
     width: 300px;
     height: 301px;
@@ -946,21 +974,17 @@ h6 {
   .banner {
     padding: 20px 15px 0 15px;
   }
-
   .banner h1 {
     font-size: 24px;
   }
-
   .banner h3 {
     font-size: 17px;
     margin: 15px 0 0;
   }
-
   .banner p {
     font-size: 12px;
     margin: 8px 0 0;
   }
-
   .banner button {
     margin: 15px 0 0;
     padding: 12px 25px;
@@ -970,7 +994,6 @@ h6 {
     align-items: center;
     padding-top: 20px;
   }
-
   .box {
     width: 86%;
     margin: 10px 0;
@@ -984,23 +1007,22 @@ h6 {
   .carousel-section {
     padding: 10px 0 10px 5px;
   }
-
   .carousel-section h3 {
     text-align: center;
     max-width: unset;
     margin-right: unset;
   }
-
   .carousel-between {
     flex-direction: column;
     align-items: center;
     padding: 10px 0 0 0;
   }
-
   .logo-image img {
     margin: 10px 22px;
     width: 110px;
   }
+
+  /* third-sec */
   .heading-part {
     display: flex;
     flex-direction: column;
@@ -1329,6 +1351,8 @@ h6 {
     width: 100%;
     max-width: 45%;
   }
+
+  /* third-section */
   .heading-part {
     display: flex;
     flex-direction: column;
@@ -1545,21 +1569,17 @@ h6 {
   .banner {
     padding: 20px 10px 0;
   }
-
   .banner h1 {
     font-size: 24px;
   }
-
   .banner h3 {
     font-size: 17px;
     margin: 15px 0 0;
   }
-
   .banner p {
     font-size: 12px;
     margin: 8px 0 0;
   }
-
   .banner button {
     margin: 15px 0 0;
     padding: 12px 25px;
@@ -1569,7 +1589,6 @@ h6 {
     align-items: center;
     padding-top: 20px;
   }
-
   .box {
     width: 58%;
     margin: 10px 0;
@@ -1583,24 +1602,22 @@ h6 {
   .carousel-section {
     padding: 10px 0 10px 5px;
   }
-
   .carousel-section h3 {
     text-align: center;
     max-width: unset;
     margin-right: unset;
   }
-
   .carousel-between {
     flex-direction: column;
     align-items: center;
     padding: 10px 0 0 0;
   }
-
   .logo-image img {
     margin: 10px 22px;
     width: 110px;
   }
 
+  /* third-section */
   .heading-part {
     display: flex;
     flex-direction: column;
