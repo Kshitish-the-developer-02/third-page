@@ -763,6 +763,67 @@
   font-weight: 500;
 }
 
+/* fourth-section */
+.sec-4-root {
+  width: 100%;
+}
+.sec-4-content {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 67px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.sec-4-div-1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 2px solid black;
+  flex: 1;
+}
+.sec-4-div-1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -2px;
+  width: 2px;
+  background: linear-gradient(to bottom, blue, rgb(48, 252, 48));
+}
+.sec-4-div-1:last-child {
+  border-right: none;
+}
+.sec-4-div-1:last-child::after {
+  display: none;
+}
+.sec-4-div-1 span {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+.sec-4-para-1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 8px;
+}
+.sec-4-para-2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  max-width: 47%;
+  line-height: 1.25;
+  margin-left: 10px;
+}
+.sec-4-para-3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 8px;
+}
+
 /* responsive-style */
 @media only screen and (min-width: 700px) and (max-width: 940px) {
   /* banner-section */
@@ -851,6 +912,25 @@
     padding: 10px 12px;
     font-size: 16px;
   }
+
+    /* fourth-section */
+    .sec-4-content {
+      max-width: 100%;
+      padding: 30px 4px;
+    }
+    .sec-4-div-1 span {
+      font-size: 27px;
+    }
+    .sec-4-para-1 {
+      font-size: 13px;
+    }
+    .sec-4-para-2 {
+      font-size: 13px;
+      max-width: 56%;
+    }
+    .sec-4-para-3 {
+      font-size: 13px;
+    }
 
   /* .fifth-section */
   .tab-section button {
@@ -1030,6 +1110,21 @@
     max-width: 46%;
   }
 
+    /* fourth-section */
+    .sec-4-div-1 span {
+      font-size: 35px;
+    }
+    .sec-4-para-1 {
+      font-size: 19px;
+    }
+    .sec-4-para-2 {
+      font-size: 19px;
+      max-width: 56%;
+    }
+    .sec-4-para-3 {
+      font-size: 19px;
+    }
+
   /* .fifth-section */
   .tab-section button {
     margin: 7px 11px 18px 10px;
@@ -1199,6 +1294,27 @@
     margin-top: 15px;
     margin-bottom: 15px;
   }
+
+    /* fourth-section */
+    .sec-4-content {
+      max-width: 100%;
+      padding: 30px 4px;
+    }
+    .sec-4-div-1 span {
+      font-size: 18px;
+    }
+    .sec-4-para-1 {
+      font-size: 10px;
+    }
+    .sec-4-para-2 {
+      font-size: 9px;
+      max-width: 55%;
+      margin: 0;
+    }
+    .sec-4-para-3 {
+      font-size: 10px;
+      line-height: 1.2;
+    }
 
   /* .fifth-section */
   .fifth-section h2 {
@@ -1563,6 +1679,26 @@
     margin-bottom: 15px;
   }
 
+  
+  /* fourth-section */
+  .sec-4-content {
+    max-width: 100%;
+    padding: 30px 4px;
+  }
+  .sec-4-div-1 span {
+    font-size: 22px;
+  }
+  .sec-4-para-1 {
+    font-size: 11px;
+  }
+  .sec-4-para-2 {
+    font-size: 11px;
+    max-width: 55%;
+  }
+  .sec-4-para-3 {
+    font-size: 11px;
+  }
+
   /* .fifth-section */
   .fifth-section {
     width: 100%;
@@ -1860,6 +1996,25 @@
     padding: 15px;
     margin-top: 15px;
     margin-bottom: 15px;
+  }
+
+   /* fourth-section */
+   .sec-4-content {
+    max-width: 100%;
+    padding: 30px 4px;
+  }
+  .sec-4-div-1 span {
+    font-size: 20px;
+  }
+  .sec-4-para-1 {
+    font-size: 10px;
+  }
+  .sec-4-para-2 {
+    font-size: 10px;
+    max-width: 55%;
+  }
+  .sec-4-para-3 {
+    font-size: 10px;
   }
 
   /* .fifth-section */
@@ -2209,4 +2364,36 @@
   .ui-ux-faq-content {
     padding: 0;
   }
+
+  /* fourth-section */
+  .sec-4-content{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec-4-div-1 {
+    max-width: 100%;
+    border-right: none;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 2px solid #efe9e9;
+}
+  .sec-4-div-1::after {
+    display: none;
+  }
+  .sec-4-para-1 {
+    font-size: 16px;
+}
+.sec-4-div-1 span {
+  font-size: 20px;
+}
+.sec-4-para-2 {
+  font-size: 12px;
+  max-width: 46%;
+  margin: 9px;
+}
+.sec-4-para-3 {
+  font-size: 14px;
+  line-height: 1.2;
+}
 }
