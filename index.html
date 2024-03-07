@@ -338,33 +338,33 @@
       </div>
     </div>
 
-   <!-- eight-section -->
-   <div class="sec-8-main-container">
-    <div class="sec-8-content">
-      <div class="sec-8-div-2">
-        <img
-          src="/image/Mediamodifier-Design (1).svg"
-          alt=""
-          width="110px"
-          height="219px"
-          style="opacity: 0.2"
-        />
-      </div>
-      <div class="sec-8-div-1">
-        <button>Lets's Tell You How</button>
-        <h2>Give Your Cookie-Cutter Software The Makeover It Needs</h2>
-      </div>
-      <div class="sec-8-div-3">
-        <img
-          src="/image/Mediamodifier-Design.svg"
-          alt=""
-          width="110px"
-          height="219px"
-          style="opacity: 0.2"
-        />
+    <!-- eight-section -->
+    <div class="sec-8-main-container">
+      <div class="sec-8-content">
+        <div class="sec-8-div-2">
+          <img
+            src="/image/Mediamodifier-Design (1).svg"
+            alt=""
+            width="110px"
+            height="219px"
+            style="opacity: 0.2"
+          />
+        </div>
+        <div class="sec-8-div-1">
+          <button>Lets's Tell You How</button>
+          <h2>Give Your Cookie-Cutter Software The Makeover It Needs</h2>
+        </div>
+        <div class="sec-8-div-3">
+          <img
+            src="/image/Mediamodifier-Design.svg"
+            alt=""
+            width="110px"
+            height="219px"
+            style="opacity: 0.2"
+          />
+        </div>
       </div>
     </div>
-  </div>
 
     <!-- section-9 -->
     <div class="sec-9-root">
@@ -481,7 +481,7 @@
     </div>
 
     <!-- UI/UX FAQ section -->
-    <div class="ui-ux-faq-sec-root">
+    <!-- <div class="ui-ux-faq-sec-root">
       <div class="ui-ux-faq-content">
         <div class="ui-ux-heading-part">
           <h2>What is UI/UX Design</h2>
@@ -545,7 +545,7 @@
           }
         });
       });
-    </script>
+    </script> -->
 
     <!-- section-11 -->
     <div class="sec-11-root">
@@ -590,6 +590,66 @@
         </div>
       </div>
     </div>
+
+    <!-- faq-section -->
+    <div class="sec-18-root">
+      <div class="sec-18-content">
+        <div class="sec-18-top-part">
+          <h2>FAQs</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+            tempore nobis! Voluptatibus delectus ipsam voluptates. Ratione non
+            culpa quos aliquid.
+          </p>
+        </div>
+        <div class="sec-18-bottom-part">
+          <div class="sec-18-bottom-part-div-1">
+            <h3>What is AirSolutions?</h3>
+            <i id="arrow-icon" class="ri-arrow-up-s-line"></i>
+          </div>
+          <p id="paragraph-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odit
+            soluta tenetur nemo ipsum Ex recusandae corporis quas, veniam
+            impedit voluptas necessitatibus officiis porro animi ullam nihil eum
+            qui minus.
+          </p>
+        </div>
+        <div class="sec-18-bottom-part-div-2">
+          <h3>How does it work?</h3>
+          <i class="ri-arrow-down-s-line"></i>
+        </div>
+        <div class="sec-18-bottom-part-div-2">
+          <h3>Is it secure?</h3>
+          <i class="ri-arrow-down-s-line"></i>
+        </div>
+        <div class="sec-18-bottom-part-div-2">
+          <h3>How much does it cost?</h3>
+          <i class="ri-arrow-down-s-line"></i>
+        </div>
+        <div class="sec-18-bottom-part-div-2">
+          <h3>Can i get support?</h3>
+          <i class="ri-arrow-down-s-line"></i>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const arrowIcon = document.getElementById("arrow-icon");
+        const paragraphContent = document.getElementById("paragraph-content");
+
+        arrowIcon.addEventListener("click", function () {
+          if (arrowIcon.classList.contains("ri-arrow-up-s-line")) {
+            arrowIcon.classList.remove("ri-arrow-up-s-line");
+            arrowIcon.classList.add("ri-arrow-down-s-line");
+            paragraphContent.style.display = "none"; // Hide the paragraph content
+          } else {
+            arrowIcon.classList.remove("ri-arrow-down-s-line");
+            arrowIcon.classList.add("ri-arrow-up-s-line");
+            paragraphContent.style.display = "block"; // Show the paragraph content
+          }
+        });
+      });
+    </script>
 
     <!-- section-12 -->
     <div class="sec-8-main-container">
