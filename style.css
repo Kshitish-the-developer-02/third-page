@@ -17,6 +17,7 @@
   font-family: "Poppins", sans-serif;
   font-size: 55px;
   line-height: 1.2;
+  max-width: 68%;
 }
 .banner-section-para {
   font-family: "Inter", sans-serif;
@@ -211,17 +212,7 @@
   background-color: black;
 }
 
-/* fourth-section */
-.fourth-section {
-  max-width: 1214px;
-  margin: 0 auto;
-  padding: 0 20px;
-  padding: 0;
-  padding: 30px 6px 0 8px;
-}
-.fourth-section img {
-  width: 100%;
-}
+
 
 /* .fifth-section */
 .fifth-section-root {
@@ -832,6 +823,7 @@
   }
   .banner h1 {
     font-size: 46px;
+    max-width: 86%;
   }
   .banner-section-para {
     font-size: 20px;
@@ -1092,6 +1084,9 @@
 
 @media (min-width: 941px) and (max-width: 1024px) {
   /* banner-section */
+  .banner h1{
+    max-width: 75%;
+  }
   .box {
     padding: 10px;
   }
@@ -1196,6 +1191,7 @@
   }
   .banner h1 {
     font-size: 31px;
+    max-width: 100%;
   }
   .banner-section-para {
     font-size: 17px;
@@ -1376,8 +1372,8 @@
     max-width: 100%;
   }
   .xyz {
-    padding: 0 0 10px 99px;
-  }
+    padding: 0 0 10px 24px;
+}
 
   /* .sixth-section-root */
   .main-content {
@@ -1418,7 +1414,6 @@
     align-items: center;
     justify-content: center;
   }
-
   .image-container {
     max-width: 30%;
   }
@@ -1585,6 +1580,7 @@
   }
   .banner h1 {
     font-size: 40px;
+    max-width: 86%;
   }
   .banner-section-para {
     font-size: 18px;
@@ -1895,6 +1891,7 @@
   }
   .banner h1 {
     font-size: 38px;
+    max-width: 97%;
   }
   .banner-section-para {
     font-size: 17px;
@@ -2237,6 +2234,7 @@
   }
   .banner h1 {
     font-size: 30px;
+    max-width: 100%;
   }
   .box {
     padding: 5px;
@@ -2252,7 +2250,7 @@
     margin-bottom: 18px;
   }
 
-  /* fisth-sectin */
+  /* fifth-sectin */
   .xyz {
     padding: 0;
   }
